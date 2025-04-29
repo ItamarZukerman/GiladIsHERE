@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector</title>
+</head>
+
+<body>
+    <h2>Good Afternoon</h2>
+    <div id="box">Alice, Who the F**** is Alice ?</div>
+    <aside class="new" id="box2">The Man On The Moon</aside>
+    <img src="frank2.jpg" alt="frank">
+
+    <script>
+        document.querySelector('h2').style.color = 'magenta';
+        document.querySelector('#box').style.fontWeight = 'bold';
+        document.querySelector('#box2').style.fontSize = '0.5rem';
+        document.querySelector('.new').style.fontSize = '2rem';
+        document.querySelector('img[alt="frank"]').style.width = '300px';
+
+
+
+    </script>
+</body>
+
+</html>
